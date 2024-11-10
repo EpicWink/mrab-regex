@@ -4,13 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "regex"
-version = "2024.5.15"
+version = "2024.11.6"
 description = "Alternative regular expression module, to replace re."
 readme = "README.rst"
 authors = [
-    { name = "Matthew Barnett", email = "regex@mrabarnett.plus.com" },
+    {name = "Matthew Barnett", email = "regex@mrabarnett.plus.com"},
 ]
-license = { text = "Apache Software License" }
+license = {text = "Apache Software License"}
 
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -35,7 +35,7 @@ requires-python = ">= 3.8"
 Homepage = "https://github.com/mrabarnett/mrab-regex"
 
 [tool.setuptools]
-package-dir = { regex = "regex_3" }
+package-dir = {regex = "regex_3"}
 py-modules = [
     "regex.__init__",
     "regex.regex",
